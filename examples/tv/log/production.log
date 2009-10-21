@@ -467,3 +467,48 @@ Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_ne
 Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:20:34) [GET]
 Rendering channels/cartoon_network
 Completed in 6ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:41) [GET]
+Rendering channels/cartoon_network
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:45) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:46) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:47) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:48) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:49) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:49) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:50) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x2534664 @method=#<Proc:0x025fd190@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 14:36:51) [GET]
+Rendering channels/cartoon_network
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]

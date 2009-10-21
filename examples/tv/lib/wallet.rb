@@ -44,6 +44,7 @@ class Wallet
     yml = YAML.load config_yml rescue nil
     @config = yml || {}
     @default_ttl = (eval(@config["default_ttl"]).to_i || 60) rescue 60
+    setup_action_caching
   end
 
   # Returns true or false based on whether or not a controller action is configured for caching in the wallet
@@ -87,26 +88,36 @@ class Wallet
     return *args
   end
 
-end
-
-ActionController::Base.class_eval do
-  before_filter :wallet
-  @@action_cached_controllers = {}
-
-  def wallet
-    @wallet ||= Wallet.new((File.open(RAILS_ROOT + "/config/wallet.yml") rescue ""))
-    controller_class_name = self.class.name 
-    controller = controller_class_name.underscore.gsub(/_controller$/, '')
-
-    # if we haven't already setup action caching on this controller
-    if @@action_cached_controllers[controller] == nil
-
-      @@action_cached_controllers[controller] = controller
-      @wallet.cached_actions(controller).each do |action|
-        puts "I'm setting up action caching for #{controller_class_name}::#{action}"
-        controller_class_name.constantize.send :caches_action, action.to_sym, :expires_in => @wallet.ttl(controller, action)
+  def setup_action_caching
+    @config.each do |controller, actions|
+      controller_class = (controller + "_controller").camelize.constantize
+      cached_actions(controller).each do |action|
+        controller_class.send :caches_action, action.to_sym, :expires_in => ttl(controller, action)
       end
     end
   end
-
 end
+
+Wallet.new((File.open(RAILS_ROOT + "/config/wallet.yml") rescue ""))
+
+#ActionController::Base.class_eval do
+#  before_filter :wallet
+#  @@action_cached_controllers = {}
+#
+#  def wallet
+#    @wallet ||= Wallet.new((File.open(RAILS_ROOT + "/config/wallet.yml") rescue ""))
+#    controller_class_name = self.class.name 
+#    controller = controller_class_name.underscore.gsub(/_controller$/, '')
+#
+#    # if we haven't already setup action caching on this controller
+#    if @@action_cached_controllers[controller] == nil
+#
+#      @@action_cached_controllers[controller] = controller
+#      @wallet.cached_actions(controller).each do |action|
+#        puts "I'm setting up action caching for #{controller_class_name}::#{action}"
+#        controller_class_name.constantize.send :caches_action, action.to_sym, :expires_in => @wallet.ttl(controller, action)
+#      end
+#    end
+#  end
+#
+#end

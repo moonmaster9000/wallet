@@ -5,7 +5,10 @@ class Wallet
   
   # This error gets thrown whenever you attempt to retreive a TTL
   # for an action that's not in the wallet. 
-  class ActionNotCached < Exception
+  class ActionNotCached < StandardError
+  end
+
+  class UnknownController < StandardError
   end
 
   attr_reader :config #:nodoc:
@@ -44,6 +47,8 @@ class Wallet
     yml = YAML.load config_yml rescue nil
     @config = yml || {}
     @default_ttl = (eval(@config["default_ttl"]).to_i || 60) rescue 60
+    @config.delete "default_ttl"
+    setup_action_caching
   end
 
   # Returns true or false based on whether or not a controller action is configured for caching in the wallet
@@ -87,4 +92,16 @@ class Wallet
     return *args
   end
 
+  def setup_action_caching
+    @config.each do |controller, actions|
+      begin
+        controller_class = (controller + "_controller").camelize.constantize
+        cached_actions(controller).each do |action|
+          controller_class.send :caches_action, action.to_sym, :expires_in => ttl(controller, action)
+        end
+      rescue Exception => e
+        #raise UnknownController.new("We're sorry, but the controller '#{(controller + "_controller").camelize}' does not exist in app/controllers/") 
+      end
+    end
+  end
 end
