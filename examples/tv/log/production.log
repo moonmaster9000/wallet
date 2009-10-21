@@ -567,3 +567,8 @@ Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_ne
 Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 15:12:10) [GET]
 Filter chain halted as [#<ActionController::Filters::AroundFilter:0x5a0adc @method=#<Proc:0x019d3874@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>, @identifier=nil, @kind=:filter, @options={:if=>nil, :unless=>nil, :only=>#<Set: {"cartoon_network"}>}>] did_not_yield.
 Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 15:24:35) [GET]
+Rendering channels/cartoon_network
+Completed in 8ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]

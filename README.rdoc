@@ -1,27 +1,24 @@
 ==Introduction
 
-Wallet is a rails gem that allows you to manage all of your action caching configuration in a single yaml file. It supports TTL.
+Wallet is a rails gem that allows you to manage all of your action caching configuration in a single yaml file. It supports TTLs.
 
 ==Motivation
 
-For a large project, it's nice from a systems administration point of view to be able to manage quickly manage caching in a single place.
+For a large project, it's nice from a systems administration point of view to be able to quickly manage caching in a single place.
 Having a central YAML file for managing action caching also opens up the possibility of creating backend web interfaces for your application
 that could allow site administrators of your app to manage the TTL's from anywhere. 
 
+
 ==Installation
 
-To install, add a config.gem line like the following to the Rails::Initializer section of your environment.rb:
+To add wallet to your RAILS app, add a config.gem line like the following to the Rails::Initializer section of your environment.rb:
 
-  # RAILS_ROOT/config/environment.rb
-  RAILS_GEM_VERSION = '2.3.3' unless defined? RAILS_GEM_VERSION
-  require File.join(File.dirname(__FILE__), 'boot')
+  config.gem "wallet", :lib => 'wallet', :version => '>=0.0.2', :source => "http://gemcutter.org"
 
-  Rails::Initializer.run do |config|
-    config.gem "wallet", :lib => 'wallet', :version => '>=0.0.2', :source => "http://gemcutter.org"
-    config.time_zone = 'UTC'
-  end
+Then install the missing gem: 
 
-Then run "sudo rake gems:install"
+  bash$ sudo rake gems:install
+
 
 ==Usage
 
