@@ -1,1 +1,58 @@
+==Introduction
+
 Wallet is a rails gem that allows you to manage all of your action caching configuration in a single yaml file. It supports TTL.
+
+==Motivation
+
+For a large project, it's nice from a systems administration point of view to be able to manage quickly manage caching in a single place.
+Having a central YAML file for managing action caching also opens up the possibility of creating backend web interfaces for your application
+that could allow site administrators of your app to manage the TTL's from anywhere. 
+
+==Installation
+
+To install, add a config.gem line like the following to the Rails::Initializer section of your environment.rb:
+
+  # RAILS_ROOT/config/environment.rb
+  RAILS_GEM_VERSION = '2.3.3' unless defined? RAILS_GEM_VERSION
+  require File.join(File.dirname(__FILE__), 'boot')
+
+  Rails::Initializer.run do |config|
+    config.gem "wallet", :lib => 'wallet', :version => '>=0.0.2', :source => "http://gemcutter.org"
+    config.time_zone = 'UTC'
+  end
+
+Then run "sudo rake gems:install"
+
+==Usage
+
+Once it's installed, you can create a "wallet.yml" file in your RAILS_ROOT/config directory to manage action caching for your application. 
+Suppose you have a controller "ChannelsController" with actions "cartoon_network" and "current_tv". At it's simplest, you could put
+the following in your "wallet.yml":
+  
+  # RAILS_ROOT/config/wallet.yml
+
+  channels:
+    cartoon_network:
+    current_tv:
+
+Wallet would read this file and setup action caching for the cartoon_network and current_tv actions; it would default the TTL
+on those actions to 60 seconds. If you wanted a different default, you could add a special "default_ttl:" entry to your "wallet.yml":
+
+  # RAILS_ROOT/config/wallet.yml
+
+  default_ttl: 30.minutes
+
+  channels:
+    cartoon_network:
+    current_tv:
+
+Notice that we used the standard rails time extension to Fixnum. Lastly, suppose you wanted current_tv to cache for 5 hours, but cartoon_network
+to still use the default:
+
+  # RAILS_ROOT/config/wallet.yml
+
+  default_ttl: 30.minutes
+
+  channels:
+    cartoon_network: 
+    current_tv: 5.hours

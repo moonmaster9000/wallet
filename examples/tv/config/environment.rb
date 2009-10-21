@@ -7,6 +7,6 @@ RAILS_GEM_VERSION = '2.3.3' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  config.gem "wallet", :lib => 'wallet', :version => '>=0.0.1', :source => "http://gemcutter.org"
+  config.gem "wallet", :lib => 'wallet', :version => '>=0.0.2', :source => "http://gemcutter.org"
   config.time_zone = 'UTC'
 end
