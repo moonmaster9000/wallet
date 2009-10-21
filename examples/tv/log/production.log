@@ -1,0 +1,319 @@
+
+
+Processing ChannelsController#current (for 127.0.0.1 at 2009-10-21 13:08:22) [GET]
+Rendering channels/current
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/current]
+
+
+Processing ChannelsController#current (for 127.0.0.1 at 2009-10-21 13:09:42) [GET]
+Rendering channels/current
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/current]
+
+
+Processing ChannelsController#current (for 127.0.0.1 at 2009-10-21 13:10:00) [GET]
+Rendering channels/current
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/current]
+
+
+Processing ChannelsController#current (for 127.0.0.1 at 2009-10-21 13:11:23) [GET]
+Rendering channels/current
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/current]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:27) [GET]
+Rendering channels/cartoon_network
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:39) [GET]
+Rendering channels/cartoon_network
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:46) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:49) [GET]
+Rendering channels/cartoon_network
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:51) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:51) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:52) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:53) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:53) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:54) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:55) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:55) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:56) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:57) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:58) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:58) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:11:59) [GET]
+Rendering channels/cartoon_network
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:00) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:01) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:02) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:03) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:06) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:08) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:10) [GET]
+Rendering channels/cartoon_network
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:12:12) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17c3840 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:19:12) [GET]
+
+NoMethodError (undefined method `keys' for nil:NilClass):
+  lib/wallet.rb:61:in `cached_actions'
+  lib/wallet.rb:104:in `wallet'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:20:36) [GET]
+Rendering channels/cartoon_network
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:20:46) [GET]
+Rendering channels/cartoon_network
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:20:51) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:20:55) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 48ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:20:57) [GET]
+Rendering channels/cartoon_network
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:02) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:04) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:05) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:06) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:06) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:07) [GET]
+Rendering channels/cartoon_network
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:11) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:12) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:12) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:13) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:14) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:14) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:15) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:16) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:16) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:17) [GET]
+Rendering channels/cartoon_network
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:18) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:18) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:21:19) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bdf94 @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:23:55) [GET]
+Rendering channels/cartoon_network
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:23:57) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:23:59) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:24:00) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:24:03) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:24:04) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:24:06) [GET]
+Rendering channels/cartoon_network
+Completed in 6ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:24:08) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:24:10) [GET]
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x17bde2c @options={:unless=>nil, :if=>nil, :only=>#<Set: {"cartoon_network"}>}, @identifier=nil, @kind=:filter, @method=#<Proc:0x00501108@/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/caching/actions.rb:64>>] did_not_yield.
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]

@@ -1,0 +1,18 @@
+
+
+Processing ChannelsController#cartoon_network (for 127.0.0.1 at 2009-10-21 13:02:57) [GET]
+Rendering channels/cartoon_network
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://localhost/channels/cartoon_network]
+
+
+Processing ChannelsController#adult_swim (for 127.0.0.1 at 2009-10-21 13:03:10) [GET]
+
+ActionController::UnknownAction (No action responded to adult_swim. Actions: cartoon_network and current):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ChannelsController#current (for 127.0.0.1 at 2009-10-21 13:03:14) [GET]
+Rendering channels/current
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/channels/current]
