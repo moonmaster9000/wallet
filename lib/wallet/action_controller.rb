@@ -16,4 +16,4 @@ ActionController::Base.class_eval do
     end
   end
 
-end
+end if defined?(ActionController::Base)
