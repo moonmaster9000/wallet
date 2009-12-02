@@ -37,19 +37,20 @@ on those actions to 60 seconds. If you wanted a different default, you could add
 
   # RAILS_ROOT/config/wallet.yml
 
-  default_ttl: 30.minutes
+  default_ttl: 30 minutes
 
   channels:
     cartoon_network:
     current_tv:
 
-Notice that we used the standard rails time extension to Fixnum. Lastly, suppose you wanted current_tv to cache for 5 hours, but cartoon_network
-to still use the default:
+Noticed that we simple specified "30 minutes". The format of the ttls is "\d\ (minutes?|days?|hours?)".
+
+Lastly, suppose you wanted current_tv to cache for 5 hours, but cartoon_network to still use the default:
 
   # RAILS_ROOT/config/wallet.yml
 
-  default_ttl: 30.minutes
+  default_ttl: 30 minutes
 
   channels:
     cartoon_network: 
-    current_tv: 5.hours
+    current_tv: 5 hours

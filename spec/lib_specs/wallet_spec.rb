@@ -23,10 +23,14 @@ describe Wallet do
       wallet = Wallet.new "default_ttl: 5.hours"
       wallet.default_ttl.should == 5.hours.to_i
     end
+    
+    it "should set the default_ttl to 300 if the default_ttl is set to '5 hours' in the config yml" do
+      wallet = Wallet.new "default_ttl: 5 hours"
+      wallet.default_ttl.should == 5.hours.to_i
+    end
 
-    it "should set the default_ttl to 60 seconds if i make a mistake in my default_ttl entry in the config yml" do
-      wallet = Wallet.new "default_ttl: 5.hurs"
-      wallet.default_ttl.should == 60
+    it "should throw an exception if i make a mistake with my time format" do
+      proc {Wallet.new "default_ttl: 5.hurs"}.should raise_error(Wallet::YamlError)
     end
   end
 
@@ -53,16 +57,24 @@ describe Wallet do
 
   describe "Wallet::ttl" do
     before do
-      config_yml = "channels:\n  cartoon_network: 5.minute\n  current_tv: "
+      config_yml = "channels:\n  cartoon_network: 5 hours\n  current_tv:\n  hbo: 2.minutes\n  pbs: 60 days"
       @wallet = Wallet.new config_yml
     end
 
     it "should return 5 minutes for the channels:cartoon_network ttl" do
-      @wallet.ttl(:channels, :cartoon_network).should == 5.minutes.to_i
+      @wallet.ttl(:channels, :cartoon_network).should == 5.hours.to_i
     end
 
     it "should return the default ttl for the current_tv action" do
       @wallet.ttl(:channels, :current_tv).should == @wallet.default_ttl
+    end
+    
+    it "should return 2 minutes for the channels:hbo ttl" do
+      @wallet.ttl(:channels, :hbo).should == 2.minutes.to_i
+    end
+    
+    it "should return 60 days for the pbs channel ttl" do
+      @wallet.ttl(:channels, :pbs).should == 60.days.to_i
     end
 
     it "should raise a ActionNotCached error for the dne action" do

@@ -7,6 +7,8 @@ class Wallet
   # for an action that's not in the wallet. 
   class ActionNotCached < StandardError
   end
+  
+  class YamlError < StandardError; end
 
   class UnknownController < StandardError
   end
@@ -46,7 +48,7 @@ class Wallet
   def initialize(config_yml="")
     yml = YAML.load config_yml rescue nil
     @config = yml || {}
-    @default_ttl = (eval(@config["default_ttl"]).to_i || 60) rescue 60
+    @default_ttl = @config["default_ttl"] ? convert_time(@config["default_ttl"]) : 60
     @config.delete "default_ttl"
     setup_action_caching
   end
@@ -80,13 +82,25 @@ class Wallet
     raise ActionNotCached.new("You asked for the TTL for the '#{action}' action in the '#{controller}' controller, but according to our wallet configuration, that action is not cached.") unless cached?(controller, action) 
     controller, action = stringify_params controller, action
     if @config[controller][action]
-      (eval(@config[controller][action]).to_i || @default_ttl) rescue @default_ttl
+      convert_time @config[controller][action]
     else
       @default_ttl
     end
   end
 
   private
+  def convert_time(time)
+    if !(time =~ /\d+(?:\ +|\.)(?:hours?|minutes?|days?)/)
+      raise YamlError.new(
+        "'#{time}' is not a valid time phrase. Valid phrases are a number followed by " +
+        "a space followed by 'hours' or 'minutes' or 'days' (or the singular versions of those)."
+      )
+    else
+      time = time.strip.gsub(/\ +/, '.')
+      eval time
+    end
+  end
+  
   def stringify_params(*args)
     args.map! {|a| a.to_s}
     return *args

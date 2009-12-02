@@ -1,3 +1,3 @@
 $LOAD_PATH << './lib'
-require 'activesupport'
+require 'active_support'
 require 'wallet'
