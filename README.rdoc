@@ -13,7 +13,7 @@ that could allow site administrators of your app to manage the TTL's from anywhe
 
 To add wallet to your RAILS app, add a config.gem line like the following to the Rails::Initializer section of your environment.rb:
 
-  config.gem "wallet", :lib => 'wallet', :version => '>=0.0.2', :source => "http://gemcutter.org"
+  config.gem "wallet", :lib => 'wallet', :version => '>=0.0.3', :source => "http://gemcutter.org"
 
 Then install the missing gem: 
 
