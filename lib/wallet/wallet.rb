@@ -22,11 +22,11 @@ class Wallet
   # Then your yaml might be formatted like so:
   #   # /path/to/wallet.yml
   #   
-  #   default_ttl: 5.hours
+  #   default_ttl: 5 hours
   #
   #   pages:
   #     show: 
-  #     index: 20.minutes
+  #     index: 20 minutes
   #
   # That would result in the following values:
   #   irb> w = Wallet.new File.open("/path/to/wallet.yml")
