@@ -98,7 +98,7 @@ class Wallet
 
   private
   def convert_time(time)
-    if !(time =~ /\d+(?:\ +|\.)(?:hours?|minutes?|days?)/)
+    if !(time =~ /^\ *\d+(?:\ +|\.)(?:hours?|minutes?|days?|seconds?)\ *$/)
       raise YamlError.new(
         "'#{time}' is not a valid time phrase. Valid phrases are a number followed by " +
         "a space followed by 'hours' or 'minutes' or 'days' (or the singular versions of those)."
