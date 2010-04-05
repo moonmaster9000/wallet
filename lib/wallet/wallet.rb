@@ -3,6 +3,14 @@
 
 class Wallet
   
+  class << self
+    # Attempts to read and load the configuration file (RAILS_ROOT/config/wallet.yml by default)
+    def load_from_config(config_file=nil)
+      config_file = RAILS_ROOT + "/config/wallet.yml" unless config_file
+      new((File.open(config_file) rescue ""))
+    end
+  end
+
   # This error gets thrown whenever you attempt to retreive a TTL
   # for an action that's not in the wallet. 
   class ActionNotCached < StandardError
@@ -108,13 +116,11 @@ class Wallet
 
   def setup_action_caching
     @config.each do |controller, actions|
-      begin
-        controller_class = (controller + "_controller").camelize.constantize
+      controller_class = (controller + "_controller").camelize.constantize rescue nil
+      if controller_class         
         cached_actions(controller).each do |action|
           controller_class.send :caches_action, action.to_sym, :expires_in => ttl(controller, action)
         end
-      rescue Exception => e
-        #raise UnknownController.new("We're sorry, but the controller '#{(controller + "_controller").camelize}' does not exist in app/controllers/") 
       end
     end
   end

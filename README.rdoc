@@ -19,6 +19,9 @@ Then install the missing gem:
 
   bash$ sudo rake gems:install
 
+Lastly, create an initializer that conditionally loads wallet (e.g., RAILS_ROOT/initializers/wallet.rb)
+  
+  Wallet.load_from_config # will load from RAILS_ROOT/config/wallet.yml by default.
 
 ==Usage
 
