@@ -1,2 +1,5 @@
-require 'wallet/wallet'
 require 'active_support/all'
+require 'wallet/wallet'
+require 'wallet/configuration'
+require 'wallet/cached_actions'
+require 'wallet/cash'

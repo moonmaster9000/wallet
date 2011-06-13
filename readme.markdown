@@ -12,11 +12,12 @@ Add the following to your Rails 3 app's Gemfile:
 
 ## Usage
 
-Let's imagine your app has a controller `HomeController`, and you want to action cache all of the
-actions inside of it. First, create a `config/wallet.rb` inside your rails root, then open your `Wallet` and add some `cash`:
+Let's imagine your app has a controller `HomeController`, and you want to action cache the index action inside of it. First, create a `config/wallet.rb` inside your rails root, then open your `Wallet` and add some `cash`:
 
     Wallet.open do
-      cash :home
+      cash :home do
+        index
+      end
     end
 
 Next, open your `ApplicationController`, and add the following into it: 
@@ -28,7 +29,7 @@ Next, open your `ApplicationController`, and add the following into it:
 
 The `cash!` method will setup action caching for your controllers (if they have any cache configuration in Wallet). 
 
-With this code in place, Rails will action cache every action inside your home controller for the default TTL (time-to-live) duration: 10 minutes. You can change the default ttl by passing a duration to the `default_ttl` method:
+With this code in place, Rails will action cache the `index` action inside your home controller for the default TTL (time-to-live) duration: 10 minutes. You can change the default ttl by passing a duration to the `default_ttl` method:
 
     Wallet.default_ttl = 2.minutes
 
