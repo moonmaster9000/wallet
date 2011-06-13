@@ -4,10 +4,10 @@ module Wallet
 
     module ClassMethods
       def cash!
-        controller_name = self.to_s.underscore.gsub('_controller', '').to_sym
-        if controller_cache_config = Wallet.send(controller_name)
-          controller_cache_config.actions.each do |action_name, ttl|
-            caches_action action_name, :expires_in => ttl
+        Wallet::Configuration.controllers.each do |controller_name, actions_configs|
+          controller = "#{controller_name}_controller".camelize.constantize
+          actions_configs.actions.each do |action_name, ttl|
+            controller.caches_action action_name, ttl
           end
         end
       end
