@@ -8,7 +8,7 @@ Wallet is a gem, available from http://rubygems.org.
 
 Add the following to your Rails 3 app's Gemfile:
 
-    gem 'wallet', '~> 1.0.0.beta.1'
+    gem 'wallet', '~> 1.0.0.beta.2'
 
 ## Usage
 
