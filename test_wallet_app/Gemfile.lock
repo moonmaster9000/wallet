@@ -1,8 +1,13 @@
 PATH
   remote: ../
   specs:
-    wallet (1.0.0.beta.1)
+    wallet (1.0.0.beta.2)
       rails (~> 3.0)
+
+PATH
+  remote: ../test_wallet_engine
+  specs:
+    test_wallet_engine (1)
 
 GEM
   remote: http://rubygems.org/
@@ -126,4 +131,5 @@ DEPENDENCIES
   cucumber-rails
   rails (= 3.0.8)
   rspec-rails
+  test_wallet_engine!
   wallet!

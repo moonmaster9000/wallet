@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.8'
 gem 'wallet', :path => '../'
+gem 'test_wallet_engine', :path => '../test_wallet_engine'
 
 group :test, :development do
   gem 'cucumber-rails'
